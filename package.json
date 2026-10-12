@@ -1,0 +1,27 @@
+{
+  "name": "excalidraw-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Excalidraw canvas + MCP for AI-driven concept diagrams",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "npx -y mcp-excalidraw-server start",
+    "stop": "npx -y mcp-excalidraw-server stop",
+    "status": "npx -y mcp-excalidraw-server status",
+    "open": "open http://127.0.0.1:3000",
+    "canvas": "npm run start && npm run open",
+    "skill": "npx -y mcp-excalidraw-server install-skill --dir .agents/skills",
+    "export": "npx -y mcp-excalidraw-server export --out diagrams/latest.excalidraw",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "keywords": [
+    "excalidraw",
+    "mcp",
+    "diagrams",
+    "learning"
+  ],
+  "license": "MIT"
+}

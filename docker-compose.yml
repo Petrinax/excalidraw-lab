@@ -1,0 +1,14 @@
+# Optional: vanilla Excalidraw UI only (no AI/MCP sync).
+# Prefer `npm run start` for the MCP-backed live canvas on :3000.
+services:
+  excalidraw:
+    image: excalidraw/excalidraw:latest
+    container_name: excalidraw-vanilla
+    restart: unless-stopped
+    ports:
+      - "5000:80"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://localhost"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
