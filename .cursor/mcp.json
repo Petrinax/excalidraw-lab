@@ -6,7 +6,8 @@
       "env": {
         "EXPRESS_SERVER_URL": "http://127.0.0.1:3000",
         "ENABLE_CANVAS_SYNC": "true",
-        "EXCALIDRAW_EXPORT_DIR": "diagrams"
+        "EXCALIDRAW_EXPORT_DIR": "diagrams",
+        "npm_config_cache": "/Users/piyushupreti/.npm-user-cache"
       }
     }
   }

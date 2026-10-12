@@ -1,0 +1,50 @@
+[
+  {
+    "id": "title",
+    "type": "text",
+    "x": 120,
+    "y": 40,
+    "width": 480,
+    "height": 40,
+    "text": "Excalidraw Lab — ready",
+    "fontSize": 28
+  },
+  {
+    "id": "ai",
+    "type": "rectangle",
+    "x": 100,
+    "y": 120,
+    "width": 180,
+    "height": 90,
+    "text": "Cursor AI + MCP",
+    "backgroundColor": "#a5d8ff"
+  },
+  {
+    "id": "canvas",
+    "type": "rectangle",
+    "x": 420,
+    "y": 120,
+    "width": 180,
+    "height": 90,
+    "text": "Live Canvas",
+    "backgroundColor": "#b2f2bb"
+  },
+  {
+    "type": "arrow",
+    "x": 0,
+    "y": 0,
+    "startElementId": "ai",
+    "endElementId": "canvas",
+    "text": "draw live"
+  },
+  {
+    "id": "note",
+    "type": "text",
+    "x": 100,
+    "y": 260,
+    "width": 500,
+    "height": 60,
+    "text": "Ask: explain a concept with boxes, arrows, charts, and labels.",
+    "fontSize": 18
+  }
+]

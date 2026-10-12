@@ -19,6 +19,8 @@ Powered by [`mcp-excalidraw-server`](https://github.com/yctimlin/mcp_excalidraw)
 - Cursor (for MCP), or any MCP client
 - Optional: Docker, for the vanilla UI on port 5000
 
+If `npx` fails with `EACCES` on `~/.npm`, either run `sudo chown -R $(whoami) ~/.npm` or keep using the project `.npmrc` (points cache at `~/.npm-user-cache`).
+
 ## Quick start
 
 ```bash
